@@ -1,0 +1,38 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: demo.opencart.com",
+                "infFile": "t1.inf",
+                "time": 1646211526826
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Link: Login",
+                "infFile": "t2.inf",
+                "time": 1646211558027
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: index.php",
+                "infFile": "t3.inf",
+                "time": 1646211560414
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Link: Tablets",
+                "infFile": "t4.inf",
+                "time": 1646211640241
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Link: Laptops & Notebooks",
+                "infFile": "t5.inf",
+                "time": 1646211667284
+            }
+        ],
+        "transactions": []
+    }
+]

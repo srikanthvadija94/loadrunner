@@ -1,0 +1,688 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff2"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 13,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-24-2022",
+    "RecordingDuration": 243797,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1645695059,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 505777,
+    "TotalBytesSent": 32482,
+    "TotalRequests": 44,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "opencart.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2606:4700:83b4:2322:93b:3:60:f404]",
+          "IncludeInScript": true,
+          "Name": "demo.opencart.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1062,
+              "EventId": 644,
+              "HttpStatus": 200,
+              "Size": 2815,
+              "URL": "https://demo.opencart.com/index.php?route=account/logout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 1890,
+              "EventId": 638,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://demo.opencart.com/index.php?route=account/logout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1047,
+              "EventId": 601,
+              "HttpStatus": 200,
+              "Size": 8431,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/macbook_pro_1-228x228.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1047,
+              "EventId": 599,
+              "HttpStatus": 200,
+              "Size": 6618,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/macbook_air_1-228x228.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1032,
+              "EventId": 594,
+              "HttpStatus": 200,
+              "Size": 7460,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/sony_vaio_1-228x228.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1031,
+              "EventId": 591,
+              "HttpStatus": 200,
+              "Size": 6175,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/macbook_1-228x228.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 937,
+              "EventId": 583,
+              "HttpStatus": 200,
+              "Size": 7811,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/hp_1-228x228.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 953,
+              "EventId": 578,
+              "HttpStatus": 200,
+              "Size": 1815,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/hp_2-80x80.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1140,
+              "EventId": 556,
+              "HttpStatus": 200,
+              "Size": 4547,
+              "URL": "https://demo.opencart.com/index.php?route=product/category&path=18"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 954,
+              "EventId": 541,
+              "HttpStatus": 200,
+              "Size": 8034,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/samsung_tab_1-228x228.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1844,
+              "EventId": 536,
+              "HttpStatus": 200,
+              "Size": 4693,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/compaq_presario-182x182.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1485,
+              "EventId": 523,
+              "HttpStatus": 200,
+              "Size": 3652,
+              "URL": "https://demo.opencart.com/index.php?route=product/category&path=57"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1250,
+              "EventId": 506,
+              "HttpStatus": 200,
+              "Size": 2843,
+              "URL": "https://demo.opencart.com/index.php?route=account/account"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 1438,
+              "EventId": 503,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://demo.opencart.com/index.php?route=account/login"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 3016,
+              "EventId": 471,
+              "HttpStatus": 200,
+              "Size": 2941,
+              "URL": "https://demo.opencart.com/index.php?route=account/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 110,
+              "EventId": 415,
+              "HttpStatus": 200,
+              "Size": 375,
+              "URL": "https://demo.opencart.com/image/catalog/cart.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 140,
+              "EventId": 413,
+              "HttpStatus": 200,
+              "Size": 3511,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/manufacturer/nintendo-130x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 188,
+              "EventId": 384,
+              "HttpStatus": 200,
+              "Size": 14165,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/manufacturer/starbucks-130x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 172,
+              "EventId": 368,
+              "HttpStatus": 200,
+              "Size": 1633,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/manufacturer/disney-130x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 172,
+              "EventId": 365,
+              "HttpStatus": 200,
+              "Size": 3203,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/manufacturer/dell-130x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 363,
+              "HttpStatus": 200,
+              "Size": 12318,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/manufacturer/harley-130x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 171,
+              "EventId": 361,
+              "HttpStatus": 200,
+              "Size": 2673,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/manufacturer/canon-130x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 140,
+              "EventId": 351,
+              "HttpStatus": 200,
+              "Size": 14247,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/manufacturer/burgerking-130x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 94,
+              "EventId": 331,
+              "HttpStatus": 200,
+              "Size": 8361,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/manufacturer/cocacola-130x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 314,
+              "HttpStatus": 200,
+              "Size": 991,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/manufacturer/sony-130x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 141,
+              "EventId": 307,
+              "HttpStatus": 200,
+              "Size": 4871,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/manufacturer/redbull-130x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 298,
+              "HttpStatus": 200,
+              "Size": 8148,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/manufacturer/nfl-130x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 141,
+              "EventId": 292,
+              "HttpStatus": 200,
+              "Size": 77160,
+              "URL": "https://demo.opencart.com/catalog/view/javascript/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 172,
+              "EventId": 223,
+              "HttpStatus": 200,
+              "Size": 4952,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/macbook_1-200x200.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 157,
+              "EventId": 221,
+              "HttpStatus": 200,
+              "Size": 6415,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/apple_cinema_30-200x200.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 157,
+              "EventId": 218,
+              "HttpStatus": 200,
+              "Size": 8662,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/canon_eos_5d_1-200x200.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 157,
+              "EventId": 216,
+              "HttpStatus": 200,
+              "Size": 7576,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/iphone_1-200x200.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 109,
+              "EventId": 193,
+              "HttpStatus": 200,
+              "Size": 126234,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/banners/MacBookAir-1140x380.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 94,
+              "EventId": 179,
+              "HttpStatus": 200,
+              "Size": 30175,
+              "URL": "https://demo.opencart.com/image/cache/catalog/demo/banners/iPhone6-1140x380.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 94,
+              "EventId": 154,
+              "HttpStatus": 200,
+              "Size": 2499,
+              "URL": "https://demo.opencart.com/catalog/view/javascript/common.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 125,
+              "EventId": 144,
+              "HttpStatus": 200,
+              "Size": 23793,
+              "URL": "https://demo.opencart.com/catalog/view/javascript/jquery/swiper/js/swiper.jquery.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 140,
+              "EventId": 116,
+              "HttpStatus": 200,
+              "Size": 568,
+              "URL": "https://demo.opencart.com/catalog/view/javascript/jquery/swiper/css/opencart.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 125,
+              "EventId": 111,
+              "HttpStatus": 200,
+              "Size": 29565,
+              "URL": "https://demo.opencart.com/catalog/view/javascript/jquery/jquery-2.1.1.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 110,
+              "EventId": 108,
+              "HttpStatus": 200,
+              "Size": 9746,
+              "URL": "https://demo.opencart.com/catalog/view/javascript/bootstrap/js/bootstrap.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 125,
+              "EventId": 103,
+              "HttpStatus": 200,
+              "Size": 2966,
+              "URL": "https://demo.opencart.com/catalog/view/theme/default/stylesheet/stylesheet.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 109,
+              "EventId": 99,
+              "HttpStatus": 200,
+              "Size": 2845,
+              "URL": "https://demo.opencart.com/catalog/view/javascript/jquery/swiper/css/swiper.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 125,
+              "EventId": 89,
+              "HttpStatus": 200,
+              "Size": 6878,
+              "URL": "https://demo.opencart.com/catalog/view/javascript/font-awesome/css/font-awesome.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 94,
+              "EventId": 58,
+              "HttpStatus": 200,
+              "Size": 19715,
+              "URL": "https://demo.opencart.com/catalog/view/javascript/bootstrap/css/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 969,
+              "EventId": 48,
+              "HttpStatus": 200,
+              "Size": 3697,
+              "URL": "https://demo.opencart.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4007:821::2003]",
+          "IncludeInScript": false,
+          "Name": "fonts.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 47,
+              "EventId": 335,
+              "HttpStatus": 200,
+              "Size": 44656,
+              "URL": "https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4007:825::2003]",
+          "IncludeInScript": false,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 563,
+              "EventId": 487,
+              "HttpStatus": 200,
+              "Size": 983,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=11:pIUlCnbojpJIDoMW3pZM-drLqT7wLxgk8y3abMmH69g&cup2hreq=7a765230275d9d92921d047670bc8e41427cbf05814db51bdab54c5d72bd8bc3"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4007:824::200a]",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 219,
+              "EventId": 631,
+              "HttpStatus": 200,
+              "Size": 73,
+              "URL": "https://safebrowsing.googleapis.com/v4/fullHashes:find?$req=Ch0KDGdvb2dsZWNocm9tZRINOTguMC40NzU4LjEwMhIbCg0IBRAGGAEiAzAwMTABENDCDRoCGAxYXiUwEhsKDQgBEAYYASIDMDAxMAEQ06wKGgIYDIAN6jISGwoNCAcQBhgBIgMwMDEwARDD4woaAhgMy_XiehIZCg0IARAGGAEiAzAwMTADEBQaAhgMoFhr9RIaCg0IARAIGAEiAzAwMTAEEMwmGgIYDLUMJYESGgoNCA8QBhgBIgMwMDEwARD2cBoCGAyJY8aGEhkKDQgKEAgYASIDMDAxMAEQBxoCGAwfJYhREhkKDQgJEAYYASIDMDAxMAEQIBoCGAzI0CynEhoKDQgIEAYYASIDMDAxMAEQ3A4aAhgM5zJ4WhIbCg0IDRAGGAEiAzAwMTABENixARoCGAwyOBmREhsKDQgDEAYYASIDMDAxMAEQ9u0JGgIYDKtCtsISGwoNCA4QBhgBIgMwMDEwARCkpAYaAhgMdYnkXhIaCg0IEBAGGAEiAzAwMTABELgQGgIYDOVjX7UaSAgBCAMIBQgGCAcICAgJCAoIDQgOCA8IEAgREAEQCBoiCiBiYW5rY3Bla2loaWppZ3Bsb21wZ2dwZG9sZWhobmFsZSABIAMgBA==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 78,
+              "EventId": 627,
+              "HttpStatus": 200,
+              "Size": 2850,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINOTguMC40NzU4LjEwMhopCAUQARobCg0IBRAGGAEiAzAwMTABEM7CDRoCGAyzh4ChIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDSrAoaAhgMfycrCSIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQweMKGgIYDMtiUbEiBCABIAIoARonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgMoFhr9SIEIAEgAigDGigIARAIGhoKDQgBEAgYASIDMDAxMAQQzCYaAhgMtQwlgSIEIAEgAigEGigIDxABGhoKDQgPEAYYASIDMDAxMAEQ9nAaAhgMiWPGhiIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBxoCGAwfJYhRIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAgGgIYDMjQLKciBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABENwOGgIYDOcyeFoiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABENexARoCGAxUX35vIgQgASACKAEaKQgDEAEaGwoNCAMQBhgBIgMwMDEwARD17QkaAhgMmxiI4SIEIAEgAigBGikIDhABGhsKDQgOEAYYASIDMDAxMAEQo6QGGgIYDOOcR6AiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABELgQGgIYDOVjX7UiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4007:804::200a]",
+          "IncludeInScript": false,
+          "Name": "fonts.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 109,
+              "EventId": 174,
+              "HttpStatus": 200,
+              "Size": 807,
+              "URL": "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4007:819::200a]",
+          "IncludeInScript": false,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 219,
+              "EventId": 411,
+              "HttpStatus": 200,
+              "Size": 36,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvOTguMC40NzU4LjEwMhIQCeWEa92fmr5ZEgUNZ2ez_hirqcoB?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4007:828::2003]",
+          "IncludeInScript": false,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 40,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=98"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4007:812::200e]",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 313,
+              "EventId": 648,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://safebrowsing.google.com/safebrowsing/clientreport/crx-list-info?client=googlechrome&appver=98.0.4758.102&pver=4.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

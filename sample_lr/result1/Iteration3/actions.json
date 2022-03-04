@@ -1,0 +1,26 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: demo.opencart.com",
+                "infFile": "t1.inf",
+                "time": 1646211699740
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Link: Login",
+                "infFile": "t2.inf",
+                "time": 1646211746557
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: index.php",
+                "infFile": "t3.inf",
+                "time": 1646211751452
+            }
+        ],
+        "transactions": []
+    }
+]

@@ -1,0 +1,11 @@
+POST /safebrowsing/clientreport/crx-list-info?client=googlechrome&appver=98.0.4758.102&pver=4.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw HTTP/1.1
+Host: safebrowsing.google.com
+Connection: keep-alive
+Content-Length: 34
+Content-Type: application/octet-stream
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+

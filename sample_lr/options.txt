@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\srikanth\OneDrive\Documents\VuGen\Scripts\sample1
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\srikanth\onedrive\documents\vugen\scripts\sample1\\logfile.log
+c:\users\srikanth\onedrive\documents\vugen\scripts\sample1\\combined_sample1.c
+c:\users\srikanth\onedrive\documents\vugen\scripts\sample1\\pre_cci.c

@@ -1,0 +1,15 @@
+[t4]
+FileName1=t4.htm
+URL1=https://demo.opencart.com/index.php?route=product/category&path=57
+Total=3
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_compaq_presario-182x182.jpg
+URL2=https://demo.opencart.com/image/cache/catalog/demo/compaq_presario-182x182.jpg
+FileName3=t4_samsung_tab_1-228x228.jpg
+URL3=https://demo.opencart.com/image/cache/catalog/demo/samsung_tab_1-228x228.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb
